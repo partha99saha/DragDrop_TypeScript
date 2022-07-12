@@ -24,10 +24,10 @@ label {
 input,
 textarea {
   font: inherit;
-  padding: 0.2rem 0.4rem;
+  padding: 0.8rem 0.4rem;
   width: 100%;
-  max-width: 30rem;
-  border: 1px solid #ccc;
+  max-width: 50rem;
+  border: 2.5px solid rgb(233, 222, 222);
 }
 
 input:focus,
@@ -38,7 +38,7 @@ textarea:focus {
 
 button {
   font: inherit;
-  background: #ff0062;
+  background: #ff6100d6;
   border: 1px solid #ff0062;
   cursor: pointer;
   color: white;
@@ -61,7 +61,7 @@ button:active {
 }
 
 .projects header {
-  background: #ff0062;
+  background: #df4ba2de;
   height: 3.5rem;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ button:active {
 }
 
 #finished-projects header {
-  background: #0044ff;
+  background: #007bffe0;
 }
 
 .projects h2 {
@@ -121,8 +121,8 @@ button:active {
 }
 
 #user-input {
-  margin: 1rem;
-  padding: 1rem;
+  margin: 2rem;
+  padding: 1.2rem;
   border: 1px solid #ff0062;
   background: #f7f7f7;
 }
